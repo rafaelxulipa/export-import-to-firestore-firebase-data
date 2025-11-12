@@ -1,0 +1,31 @@
+# 🔥 Firestore Backup Tool — .gitignore
+
+# Credenciais sensíveis (NUNCA versionar!)
+credentials.json
+
+# Backups gerados (mantém localmente apenas)
+firestore-backup.json
+backup-*.json
+*.bak
+
+# Logs e cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Dependências
+node_modules/
+
+# Build / temporários
+dist/
+tmp/
+.cache/

@@ -1,0 +1,27 @@
+{
+  "name": "firestore-backup",
+  "version": "1.0.0",
+  "description": "Script Node.js para exportar e fazer backup completo do banco Firestore (com subcoleções) em formato JSON.",
+  "type": "module",
+  "main": "export-firestore.js",
+  "scripts": {
+    "backup": "node firestore-manager.js --mode export",
+    "restore": "node firestore-manager.js --mode import",
+    "backup:collection": "node firestore-manager.js --mode export",
+    "restore:collection": "node firestore-manager.js --mode import"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "backup",
+    "nodejs",
+    "export",
+    "json",
+    "admin-sdk"
+  ],
+  "author": "Otávio Melo",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^12.7.0"
+  }
+}
