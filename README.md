@@ -104,15 +104,8 @@ Em breve será adicionado um script de **importação reversa (`import-firestore
 
 ---
 
-## 🪪 Licença
+## Licença
 
-MIT © [Otávio Melo](https://github.com/seuusuario)
+MIT © [Otávio Melo](https://github.com/rafaelxulipa)
 
-```
 
----
-
-💡 Basta copiar esse conteúdo e salvar como `README.md` — ele já está com sintaxe e estrutura perfeitas para o GitHub (com títulos, listas, blocos e links renderizando corretamente).  
-
-Quer que eu agora gere o **script `import-firestore.js`** e atualize o README com a seção de restauração também?
-```
