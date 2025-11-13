@@ -18,7 +18,7 @@ Um utilitário simples em **Node.js** para exportar **todas as coleções e subc
 1. Clone este repositório ou copie os arquivos para o seu projeto:
 
    ```bash
-   git clone https://github.com/seuusuario/firestore-backup
+   git clone https://github.com/rafaelxulipa/export-import-to-firestore-firebase-data.git
    cd firestore-backup
    npm install
 
