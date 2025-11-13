@@ -1,8 +1,3 @@
-Perfeito 😎 — aqui está **tudo convertido corretamente para Markdown completo**, com formatação, listas, blocos de código e emojis preservados:
-
----
-
-````markdown
 # 🔥 Firestore Backup Tool
 
 Um utilitário simples em **Node.js** para exportar **todas as coleções e subcoleções** do seu **Firestore** para um arquivo JSON completo.
@@ -26,7 +21,6 @@ Um utilitário simples em **Node.js** para exportar **todas as coleções e subc
    git clone https://github.com/seuusuario/firestore-backup
    cd firestore-backup
    npm install
-````
 
 2. Adicione suas credenciais do Firebase:
 
@@ -43,15 +37,19 @@ Um utilitário simples em **Node.js** para exportar **todas as coleções e subc
 npm run backup
 
 # Exportar apenas a coleção "users"
+npm run backup:collection -- --collection=vendors
+
 node firestore-manager.js --mode export --collection=users
 
 # Importar tudo
 npm run restore
 
+
+
 # Importar apenas a coleção "products"
 node firestore-manager.js --mode import --collection=products
 
-npm run backup:collection -- --collection=vendors
+npm run restore:collection -- --collection=vendors
 
 ---
 
