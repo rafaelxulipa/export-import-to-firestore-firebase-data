@@ -90,12 +90,6 @@ firestore-backup/
 
 ---
 
-## ⚡ Próximos Passos
-
-Em breve será adicionado um script de **importação reversa (`import-firestore.js`)**, para restaurar esse JSON em outro projeto ou ambiente.
-
----
-
 ## 🧠 Tecnologias usadas
 
 * [Node.js](https://nodejs.org/)
